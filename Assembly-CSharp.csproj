@@ -81,7 +81,11 @@
     <Compile Include="Assets\Scripts\Interfaces\IDamage.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IPoolable.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\Lesson5.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\SerialazableGameObject.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\XMLSerializator.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
+    <Compile Include="Assets\Scripts\MinecraftGenerator\GeneratorWindow.cs" />
     <Compile Include="Assets\Scripts\Models\BaseEnemy.cs" />
     <Compile Include="Assets\Scripts\Models\BoxModel.cs" />
     <Compile Include="Assets\Scripts\Models\DifferenceEnemy.cs" />
@@ -98,6 +102,7 @@
     <Compile Include="Assets\Scripts\Weapons\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\MagicStaff.cs" />
     <Compile Include="Assets\Scripts\Weapons\SingleBarreledFirearm.cs" />
+    <None Include="Assets\SaveXML\LevelData.xml" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:/Users/user/Documents/Shooter/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>

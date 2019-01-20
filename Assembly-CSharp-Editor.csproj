@@ -57,7 +57,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Editor\Editor.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\Editor\Lesson5Editor.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\Editor\MyWindow.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\Editor\SaveLoadObjectsEditor.cs" />
+    <Compile Include="Assets\Scripts\Lesson5\Editor\TestEditor.cs" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:/Users/user/Documents/Shooter/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>

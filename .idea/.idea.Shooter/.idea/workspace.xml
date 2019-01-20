@@ -9,15 +9,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Editor.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MinecraftGenerator/GeneratorWindow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="286">
+              <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
               <folding>
-                <marker date="1547948105391" expanded="false" signature="6:78" ph="..." />
-                <marker date="1547948105391" expanded="true" signature="115:345" ph="{...}" />
+                <marker date="1548009295890" expanded="false" signature="6:97" ph="..." />
+                <marker date="1548009295890" expanded="true" signature="127:2622" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="177:2620" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="406:487" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="517:1482" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="1128:1472" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="1590:2614" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="1755:2566" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="1818:2552" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="1889:2534" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="1970:2123" ph="{...}" />
+                <marker date="1548009295890" expanded="true" signature="2152:2266" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/Editor/MyWindow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <marker date="1547970380719" expanded="false" signature="6:72" ph="..." />
+                <marker date="1547970380719" expanded="true" signature="101:2567" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="144:2565" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="455:590" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="681:755" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="785:2559" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="1621:2549" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="1674:2535" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="1813:2517" ph="{...}" />
+                <marker date="1547970380719" expanded="true" signature="2322:2495" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -30,17 +61,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/PlayerModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TeammateController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BotSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MinecraftGenerator/GeneratorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/Editor/MyWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IPoolable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/SecondEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Waypoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseSceneObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/XMLSerializator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/TestEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/EnemyBotsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bomb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/SerialazableGameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ammo/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ammo/BaseAmmo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/Editor/SaveLoadObjectsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/BaseEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/TeammateModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/WeaponsController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,7 +90,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/DifferenceEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/FlashlightController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Editor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,7 +120,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ammo/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Kit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MyWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Lesson5.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Editor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Lesson5Editor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lesson5/SerialazableGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lesson5/XMLSerializator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lesson5/Editor/SaveLoadObjectsEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MinecraftGenerator/GeneratorWindow.cs" />
       </list>
     </option>
   </component>
@@ -94,26 +136,17 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="681" />
+    <option name="y" value="-18" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -168,11 +201,13 @@
       <workItem from="1547407646672" duration="7000" />
       <workItem from="1547926255494" duration="18588000" />
       <workItem from="1547947321310" duration="1386000" />
+      <workItem from="1547967259520" duration="10163000" />
+      <workItem from="1547999825049" duration="8367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68091000" />
+    <option name="totallyTimeSpent" value="86621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,13 +220,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18467475" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37938845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Captures" order="5" />
+      <window_info id="Captures" order="5" weight="0.3295583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -686,19 +722,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Kit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1547946342625" expanded="true" signature="6:78" ph="..." />
-            <marker date="1547946342625" expanded="true" signature="93:574" ph="{...}" />
-            <marker date="1547946342625" expanded="true" signature="143:572" ph="{...}" />
-            <marker date="1547946342625" expanded="true" signature="303:566" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Kit.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bomb.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -712,13 +736,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Editor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Lesson5.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Editor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/MyWindow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Lesson5Editor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/Editor/SaveLoadObjectsEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="455">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <marker date="1547948105391" expanded="false" signature="6:78" ph="..." />
-            <marker date="1547948105391" expanded="true" signature="115:345" ph="{...}" />
+            <marker date="1548002451350" expanded="true" signature="6:82" ph="..." />
+            <marker date="1548002451350" expanded="true" signature="118:1377" ph="{...}" />
+            <marker date="1548002451350" expanded="true" signature="206:828" ph="{...}" />
+            <marker date="1548002451350" expanded="true" signature="483:757" ph="{...}" />
+            <marker date="1548002451350" expanded="true" signature="558:745" ph="{...}" />
+            <marker date="1548002451350" expanded="true" signature="919:1375" ph="{...}" />
+            <marker date="1548002451350" expanded="true" signature="1101:1369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/XMLSerializator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <marker date="1547978297982" expanded="false" signature="6:67" ph="..." />
+            <marker date="1547978297982" expanded="true" signature="104:930" ph="{...}" />
+            <marker date="1547978297982" expanded="true" signature="181:267" ph="{...}" />
+            <marker date="1547978297982" expanded="true" signature="340:571" ph="{...}" />
+            <marker date="1547978297982" expanded="true" signature="501:565" ph="{...}" />
+            <marker date="1547978297982" expanded="true" signature="633:928" ph="{...}" />
+            <marker date="1547978297982" expanded="true" signature="803:898" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/SerialazableGameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1547976923725" expanded="true" signature="55:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lesson5/Editor/MyWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <marker date="1547970380719" expanded="false" signature="6:72" ph="..." />
+            <marker date="1547970380719" expanded="true" signature="101:2567" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="144:2565" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="455:590" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="681:755" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="785:2559" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="1621:2549" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="1674:2535" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="1813:2517" ph="{...}" />
+            <marker date="1547970380719" expanded="true" signature="2322:2495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MinecraftGenerator/GeneratorWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <folding>
+            <marker date="1548009295890" expanded="false" signature="6:97" ph="..." />
+            <marker date="1548009295890" expanded="true" signature="127:2622" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="177:2620" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="406:487" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="517:1482" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="1128:1472" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="1590:2614" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="1755:2566" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="1818:2552" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="1889:2534" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="1970:2123" ph="{...}" />
+            <marker date="1548009295890" expanded="true" signature="2152:2266" ph="{...}" />
           </folding>
         </state>
       </provider>

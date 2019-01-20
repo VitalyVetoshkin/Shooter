@@ -28,6 +28,9 @@
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
         </e>
+        <e p="SaveXML" t="Include">
+          <e p="LevelData.xml" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Ammo" t="Include">
             <e p="BaseAmmo.cs" t="Include" />
@@ -45,16 +48,27 @@
             <e p="TeammateController.cs" t="Include" />
             <e p="WeaponsController.cs" t="Include" />
           </e>
-          <e p="Editor" t="Include">
-            <e p="Editor.cs" t="Include" />
-          </e>
           <e p="EnemyBot.cs" t="Include" />
           <e p="Interfaces" t="Include">
             <e p="IDamage.cs" t="Include" />
             <e p="IDamageable.cs" t="Include" />
             <e p="IPoolable.cs" t="Include" />
           </e>
+          <e p="Lesson5" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Lesson5Editor.cs" t="Include" />
+              <e p="MyWindow.cs" t="Include" />
+              <e p="SaveLoadObjectsEditor.cs" t="Include" />
+              <e p="TestEditor.cs" t="Include" />
+            </e>
+            <e p="Lesson5.cs" t="Include" />
+            <e p="SerialazableGameObject.cs" t="Include" />
+            <e p="XMLSerializator.cs" t="Include" />
+          </e>
           <e p="Main.cs" t="Include" />
+          <e p="MinecraftGenerator" t="Include">
+            <e p="GeneratorWindow.cs" t="Include" />
+          </e>
           <e p="Models" t="Include">
             <e p="BaseEnemy.cs" t="Include" />
             <e p="BoxModel.cs" t="Include" />
