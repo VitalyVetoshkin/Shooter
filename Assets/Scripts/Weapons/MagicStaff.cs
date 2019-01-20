@@ -12,21 +12,12 @@ namespace FPS
         private Animator anim;
         [SerializeField] private Text textCountBulletsUI;
         [SerializeField] private Image ui;
-
-        private BaseAmmo[] bullets;
         
         private void Awake()
         {
             fireParticle = GetComponentInChildren<ParticleSystem>();
             anim = GetComponent<Animator>();
             countBulletsInWeapon = countBullets;      
-            
-            bullets = new BaseAmmo[countBullets * firepoints.Length];
-            for (var i = 0; i < bullets.Length; i++)
-            {
-                bullets[i] = Instantiate(bulletPrefab, firepoints[0].position, firepoints[0].rotation);
-                bullets[i].gameObject.SetActive(false);
-            }
         }
 
         protected override void FireAction()
@@ -37,23 +28,9 @@ namespace FPS
             {
                 foreach (var firepoint in firepoints)
                 {
-                    if (bullets != null)
-                    {
-                        BaseAmmo bullet = bullets[0];
-                
-                        for (var i = 0; i < bullets.Length; i++)
-                        {
-                            if (bullets[i].gameObject.activeSelf == false)
-                            {
-                                bullet = bullets[i];
-                                bullet.gameObject.SetActive(true);
-                                bullet.transform.position = firepoint.position;
-                                bullet.transform.forward = firepoint.forward;
-                                break;
-                            }                                
-                        }           
-                        bullet.Initialize(shootForce);
-                    }
+                    BaseAmmo bullet = ObjectsPool.Instance.GetObject(ammoID) as BaseAmmo;
+                             
+                    bullet.Initialize(shootForce, firepoint);
                 }
 
                 fireParticle.Play();

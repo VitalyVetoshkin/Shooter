@@ -6,8 +6,8 @@ namespace FPS
 {
     public abstract class BaseWeapon : BaseSceneObject
     {
-        [SerializeField]
-        protected BaseAmmo bulletPrefab;
+        [SerializeField] 
+        protected string ammoID;
 
         [SerializeField] 
         protected int countBullets;
@@ -23,6 +23,8 @@ namespace FPS
 
         protected float lastShotTime;
         protected int countBulletsInWeapon = 0;
+
+        public int CountBulletsInWeapon => countBulletsInWeapon;
 
         public virtual void Fire()
         {

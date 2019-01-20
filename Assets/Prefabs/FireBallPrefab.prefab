@@ -88,6 +88,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   lifetime: 2
+  poolID: Bullet02
+  objectsCount: 30
 --- !u!1 &8357495224845947866
 GameObject:
   m_ObjectHideFlags: 0

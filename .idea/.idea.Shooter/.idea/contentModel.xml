@@ -5,6 +5,7 @@
     <e p="C:\Users\user\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Shooter.2121792884.00" t="ExcludeRecursive" />
     <e p="C:\Users\user\Documents\Shooter" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -33,29 +34,44 @@
             <e p="Bullet.cs" t="Include" />
           </e>
           <e p="BaseSceneObject.cs" t="Include" />
+          <e p="Bomb.cs" t="Include" />
+          <e p="BotSpawner.cs" t="Include" />
           <e p="Controller" t="Include">
             <e p="BaseController.cs" t="Include" />
             <e p="BoxController.cs" t="Include" />
+            <e p="EnemyBotsController.cs" t="Include" />
             <e p="FlashlightController.cs" t="Include" />
             <e p="InputController.cs" t="Include" />
+            <e p="TeammateController.cs" t="Include" />
             <e p="WeaponsController.cs" t="Include" />
           </e>
+          <e p="Editor" t="Include">
+            <e p="Editor.cs" t="Include" />
+          </e>
+          <e p="EnemyBot.cs" t="Include" />
           <e p="Interfaces" t="Include">
+            <e p="IDamage.cs" t="Include" />
             <e p="IDamageable.cs" t="Include" />
+            <e p="IPoolable.cs" t="Include" />
           </e>
           <e p="Main.cs" t="Include" />
           <e p="Models" t="Include">
+            <e p="BaseEnemy.cs" t="Include" />
             <e p="BoxModel.cs" t="Include" />
             <e p="DifferenceEnemy.cs" t="Include" />
             <e p="FlashlightModel.cs" t="Include" />
             <e p="PlayerModel.cs" t="Include" />
             <e p="SecondEnemy.cs" t="Include" />
+            <e p="TeammateModel.cs" t="Include" />
             <e p="TestEnemy.cs" t="Include" />
           </e>
+          <e p="ObjectsPool.cs" t="Include" />
           <e p="Views" t="Include">
             <e p="FlashlightChargeView.cs" t="Include" />
             <e p="FlashlightView.cs" t="Include" />
+            <e p="TeammateView.cs" t="Include" />
           </e>
+          <e p="Waypoint.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="BaseWeapon.cs" t="Include" />
             <e p="MagicStaff.cs" t="Include" />

@@ -6,5 +6,6 @@ namespace FPS
     {
         float CurrentHealth { get; }
         void ApplyDamage(float damage, Vector3 damageDirection);
+        void Die();
     }
 }

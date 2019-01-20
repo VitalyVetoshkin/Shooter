@@ -2,7 +2,7 @@
 
 namespace FPS
 {
-    public class SecondEnemy : BaseSceneObject, IDamageable
+    public class SecondEnemy : BaseEnemy, IDamageable
     {
         private GameObject cube;
         private Rigidbody rigidbody;
@@ -10,20 +10,10 @@ namespace FPS
         {
             cube = GetComponentInChildren<MeshFilter>().gameObject;
             rigidbody = gameObject.GetComponent<Rigidbody>();
-        }
-
-        public bool IsAlive
-        {
-            get { return health > 0; }
-        }
-        
-        [SerializeField]
-        private float health = 100f;
-
-        public float CurrentHealth => health;
+        }       
         public void ApplyDamage(float damage, Vector3 damageDirection)
         {
-            if (!IsAlive) return;
+            base.ApplyDamage(damage, damageDirection);
 
             health -= damage;
 
@@ -31,15 +21,12 @@ namespace FPS
             
             cube.SetActive(cube.activeSelf == false);
 
-            rigidbody.AddForce(damageDirection, ForceMode.Impulse);
-            
-            if (!IsAlive) Die();
+            rigidbody.AddForce(damageDirection, ForceMode.Impulse);           
         }
 
-        private void Die()
+        public void Die()
         {          
-            Collider.enabled = false;
-            Destroy(gameObject, 3f);
+            base.Die();
         }
     }
 }

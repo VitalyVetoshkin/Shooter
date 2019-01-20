@@ -25,6 +25,9 @@ namespace FPS
             
             if (Input.GetAxis("Mouse ScrollWheel") > 0)
                 Main.Instance.WeaponsController.ChangeWeapon();
+
+            if (Input.GetButtonDown("TeammateCommand"))
+                Main.Instance.TeammateController.MoveCommand();
         }
     }
 }
