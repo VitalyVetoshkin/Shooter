@@ -14,21 +14,35 @@ namespace FPS
         private bool isHitted = false;
         private ParticleSystem collParticle;
 
+        [SerializeField]
+        private string poolID = "Bullet01";
+        public override string PoolID
+        {
+            get { return poolID; }
+        }
+        [SerializeField]
+        private int objectsCount = 30;
+        public override int ObjectsCount
+        {
+            get { return objectsCount; }
+        }
+
         private void Awake()
         {
             collParticle = GetComponentInChildren<ParticleSystem>();
         }
-        public override void Initialize(float force)
-        {
-            speed = force;
-            Invoke("ReturnInPul", 2f);            
-        }
 
-        private void ReturnInPul()
+        public override void Initialize(float force, Transform firepoint)
         {
+            transform.position = firepoint.position;
+            transform.rotation = firepoint.rotation;
+            
+            CancelInvoke();
             isHitted = false;
-            collParticle.Stop();
-            gameObject.SetActive(false);
+            speed = force;
+            Invoke("Disable", lifetime);    
+            
+            gameObject.SetActive(true);
         }
 
         private void FixedUpdate()
@@ -48,7 +62,7 @@ namespace FPS
                 IDamageable box = hit.collider.GetComponent<IDamageable>();
                 if (box != null) box.ApplyDamage(damage, transform.forward * speed);
                 
-                Invoke("ReturnInPul", 0.3f);
+                Invoke("Disable", 0.3f);
             }
             else
             {

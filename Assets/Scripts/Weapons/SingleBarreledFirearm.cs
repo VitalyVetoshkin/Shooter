@@ -10,45 +10,22 @@ namespace FPS
         private ParticleSystem fireParticle;
         private Animator anim;
         [SerializeField] private Text textCountBulletsUI;
-        [SerializeField] private Image ui;
-        
-        private BaseAmmo[] bullets;
+        [SerializeField] private Image ui;        
         
         private void Awake()
         {
             fireParticle = GetComponentInChildren<ParticleSystem>();
             anim = GetComponent<Animator>();
-            countBulletsInWeapon = countBullets;     
-            
-            bullets = new BaseAmmo[countBullets];
-            for (var i = 0; i < bullets.Length; i++)
-            {
-                bullets[i] = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
-                bullets[i].gameObject.SetActive(false);
-            }
+            countBulletsInWeapon = countBullets;                 
         }
 
         protected override void FireAction()
         {
             if (countBulletsInWeapon <= 0) return;
-
-            if (bullets != null)
-            {
-                BaseAmmo bullet = bullets[0];
-                
-                for (var i = 0; i < bullets.Length; i++)
-                {
-                    if (bullets[i].gameObject.activeSelf == false)
-                    {
-                        bullet = bullets[i];
-                        bullet.gameObject.SetActive(true);
-                        bullet.transform.position = firepoint.position;
-                        bullet.transform.forward = firepoint.forward;
-                        break;
-                    }                                
-                }           
-                bullet.Initialize(shootForce);
-            }
+            
+            BaseAmmo bullet = ObjectsPool.Instance.GetObject(ammoID) as BaseAmmo;
+            
+            bullet.Initialize(shootForce, firepoint);
 
             fireParticle.Play();
             
@@ -78,7 +55,8 @@ namespace FPS
             while (true)
             {
                 yield return new WaitForSeconds(0.5f);
-                            
+                
+                if (textCountBulletsUI)
                 textCountBulletsUI.text = countBulletsInWeapon.ToString();
             }          
         }

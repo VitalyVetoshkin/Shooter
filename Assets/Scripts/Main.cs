@@ -14,6 +14,8 @@ namespace FPS
         public InputController InputController { get; private set; }
         public BoxController BoxController { get; private set; }
         public WeaponsController WeaponsController { get; private set; }
+        public TeammateController TeammateController { get; private set; }
+        public EnemyBotsController EnemyBotsController { get; private set; }
         
         public Text DamageUI { get; private set; }
 
@@ -30,6 +32,8 @@ namespace FPS
             BoxController = gameObject.AddComponent<BoxController>();
             WeaponsController = gameObject.AddComponent<WeaponsController>();
             DamageUI = GameObject.Find("Damage").GetComponent<Text>();
+            TeammateController = gameObject.AddComponent<TeammateController>();
+            EnemyBotsController = gameObject.AddComponent<EnemyBotsController>();
         }
     }
 }
