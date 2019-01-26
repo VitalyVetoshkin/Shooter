@@ -84,6 +84,17 @@
     <Compile Include="Assets\Scripts\Lesson5\Lesson5.cs" />
     <Compile Include="Assets\Scripts\Lesson5\SerialazableGameObject.cs" />
     <Compile Include="Assets\Scripts\Lesson5\XMLSerializator.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\DataManager.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\Interface\IDataProvider.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\JsonData.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\MakeRadarObject.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\PlayerPrefsData.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\Radar.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\StreamData.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\TestData.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\Tools.cs" />
+    <Compile Include="Assets\Scripts\Lesson6\XMLData.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Scripts\MinecraftGenerator\GeneratorWindow.cs" />
     <Compile Include="Assets\Scripts\Models\BaseEnemy.cs" />

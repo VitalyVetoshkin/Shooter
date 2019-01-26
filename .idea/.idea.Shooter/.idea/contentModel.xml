@@ -65,6 +65,24 @@
             <e p="SerialazableGameObject.cs" t="Include" />
             <e p="XMLSerializator.cs" t="Include" />
           </e>
+          <e p="Lesson6" t="Include">
+            <e p="DataManager.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ToolsEditor.cs" t="Include" />
+            </e>
+            <e p="Interface" t="Include">
+              <e p="IDataProvider.cs" t="Include" />
+            </e>
+            <e p="JsonData.cs" t="Include" />
+            <e p="MakeRadarObject.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="PlayerPrefsData.cs" t="Include" />
+            <e p="Radar.cs" t="Include" />
+            <e p="StreamData.cs" t="Include" />
+            <e p="TestData.cs" t="Include" />
+            <e p="Tools.cs" t="Include" />
+            <e p="XMLData.cs" t="Include" />
+          </e>
           <e p="Main.cs" t="Include" />
           <e p="MinecraftGenerator" t="Include">
             <e p="GeneratorWindow.cs" t="Include" />
